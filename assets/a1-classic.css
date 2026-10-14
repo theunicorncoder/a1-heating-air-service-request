@@ -1,0 +1,63 @@
+/* A1 Mechanical — Classic Premium UI System
+   Designed for transparent, restrained, high-trust presentation. */
+:root{
+  --a1-navy:#07172f;
+  --a1-navy-soft:#0d2748;
+  --a1-blue:#1f5f9f;
+  --a1-red:#b8202a;
+  --a1-ivory:#f7f4ed;
+  --a1-paper:rgba(255,255,255,.82);
+  --a1-paper-strong:rgba(255,255,255,.94);
+  --a1-ink:#162133;
+  --a1-muted:#647184;
+  --a1-line:rgba(7,23,47,.14);
+  --a1-shadow:0 18px 50px rgba(7,23,47,.10);
+}
+html{scroll-behavior:smooth}
+body{background:linear-gradient(180deg,#fbfaf7 0%,var(--a1-ivory) 48%,#f1eee7 100%)!important;color:var(--a1-ink)!important;font-family:Arial,Helvetica,sans-serif!important}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 12% 12%,rgba(31,95,159,.08),transparent 28%),radial-gradient(circle at 88% 24%,rgba(184,32,42,.055),transparent 26%)}
+.utility,.topbar{background:rgba(7,23,47,.97)!important;border-bottom:1px solid rgba(255,255,255,.08)!important}
+header,.site-header{background:rgba(250,249,245,.84)!important;backdrop-filter:blur(18px)!important;-webkit-backdrop-filter:blur(18px)!important;border-bottom:1px solid var(--a1-line)!important;box-shadow:none!important}
+.nav{min-height:74px!important}
+.brand img,.logo img{max-height:52px!important;width:auto!important}
+.menu,.tabs{gap:18px!important}
+.menu a,.tabs a{font-size:12px!important;letter-spacing:.08em!important;text-transform:uppercase!important;font-weight:800!important;color:var(--a1-navy)!important;padding:10px 0!important}
+.menu a:hover,.tabs a:hover,.tabs a.active{color:var(--a1-red)!important}
+.callbox b{font-size:12px!important;color:var(--a1-navy)!important}
+.callcircle{width:34px!important;height:34px!important}
+.btn,.submit,.mobile-nav{min-height:0!important;padding:10px 14px!important;border-radius:3px!important;font-size:11px!important;line-height:1.05!important;letter-spacing:.08em!important;text-transform:uppercase!important;font-weight:800!important;box-shadow:none!important;transition:transform .2s ease,background .2s ease,border-color .2s ease!important}
+.btn:hover,.submit:hover{transform:translateY(-1px)!important}
+.btn-red,.submit{background:var(--a1-red)!important;color:#fff!important}
+.btn-blue{background:var(--a1-navy)!important;color:#fff!important}
+.btn-white,.btn-light{background:rgba(255,255,255,.9)!important;color:var(--a1-navy)!important;border:1px solid rgba(255,255,255,.65)!important}
+.hero-wrap{background:transparent!important;padding-top:18px!important}
+.hero{border-radius:0!important;box-shadow:none!important;border-top:1px solid rgba(255,255,255,.12)!important;border-bottom:1px solid rgba(255,255,255,.16)!important;min-height:610px!important}
+.hero-copy{padding-top:64px!important;padding-bottom:64px!important}
+.hero h1,.page-hero h1,.section h2{font-family:Georgia,'Times New Roman',serif!important;font-weight:500!important;text-transform:none!important;letter-spacing:-.035em!important}
+.hero h1{font-size:clamp(46px,6vw,82px)!important;line-height:.98!important}
+.hero p,.page-hero p,.section-lead{font-size:15px!important;line-height:1.8!important}
+.kicker,.eyebrow{font-size:10px!important;letter-spacing:.18em!important;text-transform:uppercase!important;font-weight:800!important}
+.hero-contact{background:rgba(247,244,237,.92)!important;border-radius:0!important;border:1px solid rgba(7,23,47,.10)!important;box-shadow:none!important}
+.quickbar{background:rgba(255,255,255,.76)!important;backdrop-filter:blur(18px)!important;border:1px solid var(--a1-line)!important;box-shadow:var(--a1-shadow)!important}
+.quick{font-size:12px!important;letter-spacing:.03em!important}
+.section{padding:86px 0!important}
+.section.alt{background:rgba(255,255,255,.44)!important}
+.section.dark{background:linear-gradient(145deg,#07172f,#0a203d)!important}
+.card,.form-card{border-radius:4px!important;background:rgba(255,255,255,.74)!important;backdrop-filter:blur(10px)!important;border:1px solid var(--a1-line)!important;box-shadow:none!important}
+.dark .card{background:rgba(255,255,255,.035)!important;border-color:rgba(255,255,255,.14)!important}
+.card h3,.feature-copy h3,.contact-card h3{font-family:Georgia,'Times New Roman',serif!important;font-weight:500!important;text-transform:none!important;letter-spacing:-.02em!important}
+.card .mini{border-radius:2px!important;background:rgba(7,23,47,.06)!important;border:1px solid var(--a1-line)!important}
+.feature{border-radius:4px!important}
+.feature:after{background:linear-gradient(transparent 42%,rgba(4,9,27,.90))!important}
+.band{background:var(--a1-navy)!important;border-top:1px solid rgba(255,255,255,.08)!important;border-bottom:1px solid rgba(255,255,255,.08)!important}
+.page-hero{background:linear-gradient(120deg,#07172f,#0c2b50)!important;padding:72px 0!important}
+.content-split img,.gallery img{border-radius:3px!important;box-shadow:none!important}
+.contact-card{border-radius:4px!important;background:linear-gradient(145deg,#07172f,#0c2b50)!important}
+input,select,textarea{border-radius:2px!important;background:rgba(255,255,255,.86)!important}
+.segment span{border-radius:2px!important;font-size:12px!important}
+footer{background:#061228!important}
+footer h4{font-family:Georgia,'Times New Roman',serif!important;font-weight:500!important}
+.services-grid,.service-grid,.field-grid,.contact-grid,.location-grid{gap:18px!important}
+.service-card,.stat,.panel,.location-card,.contact-panel{border-radius:4px!important;background:rgba(255,255,255,.72)!important;border:1px solid var(--a1-line)!important;box-shadow:none!important}
+@media(max-width:980px){.nav{min-height:66px!important}.hero{min-height:auto!important}.hero-copy{padding:44px 26px!important}.btn,.submit,.mobile-nav{padding:10px 13px!important;font-size:10px!important}}
+@media(max-width:640px){.section{padding:64px 0!important}.hero h1,.page-hero h1{font-size:44px!important}.brand img,.logo img{max-height:46px!important}}
